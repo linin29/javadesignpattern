@@ -6,8 +6,22 @@ package com.glinin.java.javadesignpattern;
  */
 public class App 
 {
+    private static int a = 1;
+    
+    private int b = 10;
+    
+    private int getB(){
+        b++;
+        return b;
+    }
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        App app = new App();
+        System.out.println(app.a);
+        System.out.println(app.getB());
+        a++;
+        app = new App();
+        System.out.println(app.a);
+        System.out.println(app.getB());
     }
 }
