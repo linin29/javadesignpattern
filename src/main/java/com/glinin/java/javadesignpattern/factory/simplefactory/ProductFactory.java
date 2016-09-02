@@ -6,11 +6,13 @@
  * <b>日期：</b>2016年9月1日-下午4:15:58<br/>
  * 
  */
-package com.glinin.java.javadesignpattern.factory.simpleFactory;
+package com.glinin.java.javadesignpattern.factory.simplefactory;
 
 /**
  * <b>类   名：</b>ProductFactory<br/>
- * <b>类描述：</b>工厂类<br/>
+ * <b>类描述：</b>工厂类
+ *                当每新增一个产品的时候，工厂类就要相应增加业务逻辑和判断逻辑
+ *                违背了开闭原则（对扩展开放，对修改关闭）<br/>
  * <b>创建人：</b>ningli<br/>
  * <b>创建时间：</b>2016年9月1日 下午4:15:58<br/>
  * <b>修改人：</b>ningli<br/>

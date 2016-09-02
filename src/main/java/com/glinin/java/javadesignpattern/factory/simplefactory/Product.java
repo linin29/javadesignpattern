@@ -6,7 +6,7 @@
  * <b>日期：</b>2016年9月1日-下午4:12:26<br/>
  * 
  */
-package com.glinin.java.javadesignpattern.factory.simpleFactory;
+package com.glinin.java.javadesignpattern.factory.simplefactory;
 
 /**
  * <b>类   名：</b>Product<br/>
