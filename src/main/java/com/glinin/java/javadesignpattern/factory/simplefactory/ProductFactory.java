@@ -1,6 +1,6 @@
 /**
  * <b>项目名：</b>java设计模式<br/>
- * <b>包   名：</b>com.glinin.java.javadesignpattern.factory.simpleFactory<br/>
+ * <b>包   名：</b>com.glinin.java.javadesignpattern.factory.simplefactory<br/>
  * <b>文件名：</b>ProductFactory.java<br/>
  * <b>版本信息：</b>1.0<br/>
  * <b>日期：</b>2016年9月1日-下午4:15:58<br/>
@@ -11,6 +11,8 @@ package com.glinin.java.javadesignpattern.factory.simplefactory;
 /**
  * <b>类   名：</b>ProductFactory<br/>
  * <b>类描述：</b>工厂类
+ *                工厂类角色：这是本模式的核心，含有一定的商业逻辑和判断逻辑，
+ *                在java中它往往由一个具体类实现。
  *                当每新增一个产品的时候，工厂类就要相应增加业务逻辑和判断逻辑
  *                违背了开闭原则（对扩展开放，对修改关闭）<br/>
  * <b>创建人：</b>ningli<br/>
