@@ -8,7 +8,9 @@
  */
 package com.glinin.java.java8;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 /**
  * <b>类   名：</b>Java8<br/>
@@ -28,5 +30,25 @@ public class Java8 {
         Arrays.asList("a", "b", "c").forEach((String element) -> {
             System.out.println(element);
         });
+        
+        //初始化arrayList
+        List<Integer> list1 = new ArrayList<Integer>(8);
+        list1.add(23);
+        list1.add(24);
+        list1.add(25);
+        System.out.println(list1.toArray());
+        list1.add(1, 26);
+        
+        List<Integer> list2 = new ArrayList<>(list1);
+        System.out.println(list2.get(0));
+        System.out.println((Object)Object[].class == (Object)Object[].class);
+        
+        Object[] objects= new Object[1];
+        Object[] objects1= {};
+        System.out.println(objects.length);
+        System.out.println(objects == objects1);
+        
+        System.out.println(list2.toArray(objects));
+        System.out.println(list2);
     }
 }
